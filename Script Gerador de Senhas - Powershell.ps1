@@ -9,8 +9,9 @@ $caracteres = @(
     '!','@','#','$','%','&','*'
 )
 
-# Definição do tamanho da senha, também variável
-$tamanhoSenha = 15
+# Dia 12.08 - Mudança para que o usuário escolha qual o tamanho da senha
+Write-Host "Qual tamanho da senha você deseja?" -ForegroundColor Yellow
+$tamanhoSenha = [int](Read-Host)
 
 # Variável que vai guardar a senha final
 $senha = ""
