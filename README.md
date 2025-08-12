@@ -10,6 +10,7 @@
 
 ###
 
-<p align="left">⚪ Get-Random<br>⚪ For & lt ⚪ Uso de conversor para [int]</p>
+<p align="left">⚪ Get-Random<br>⚪ For & lt </p>
+<p align="left">⚪ Uso de conversor para [int]</p>
 
 ###
