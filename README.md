@@ -2,15 +2,12 @@
 
 ###
 
-<p align="left">2° Script para treino de Powershell Coding</p>
+<p align="left">🐰 FUNÇÕES USADAS</p>
 
 ###
 
-<h2 align="left">🐰 FUNÇÕES USADAS</h2>
+<h2 align="left">🌸 FUNÇÕES USADAS</h2>
 
 ###
 
-<p align="left">⚪ Get-Random<br>⚪ For & lt </p>
-<p align="left">⚪ Uso de conversor para [int]</p>
-
-###
+<p align="left">⚪ Get-Random<br>⚪ For & lt<br>⚪ Uso de conversor para [int]</p>
