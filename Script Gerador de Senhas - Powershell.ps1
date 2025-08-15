@@ -16,6 +16,27 @@ $tamanhoSenha = [int](Read-Host)
 # Variável que vai guardar a senha final
 $senha = ""
 
+# Tirar Simbolos
+$simbolos = @('!','@','#','$','%','&','*')
+$respostasimbolo = Read-Host "Deseja remover símbolos? (s/n)"
+if ($respostasimbolo -eq 's') {
+    $caracteres = $caracteres | Where-Object { $_ -notin $simbolos }
+}
+
+# Função para tirar caracteres parecidos
+# Lista de caracteres parecidos
+$caracteresParecidos = @('0','O','1','l')
+$resposta = Read-Host "Quer remover caracteres parecidos como 0/O e 1/l? (s/n)"
+
+# Resposta = "s", filtra o array principal removendo esses caracteres
+# -eq siginfica equal/igual
+# Where-Object - indica o local do objeto 
+# -notin - não esteja em caracteres parecidos
+# O | (pipeline) manda cada elemento do array $caracteres para dentro do Where-Object 
+if ($resposta -eq 's') {
+    $caracteres = $caracteres | Where-Object { $_ -notin $caracteresParecidos }
+}
+
 # Loop para escolher caracteres aleatórios e formar a senha
 # $i começa em 0 e vai até o tamanho da senha
 # lt = less than "menor que"
