@@ -51,4 +51,14 @@ for ($i = 0; $i -lt $tamanhoSenha; $i++) {
 }
 
 # Mostrando a senha gerada para o usuário
-Write-Output "Senha gerada: $senha"
+Write-Output "|============= SENHA GERADA: $senha ==================|" 
+
+
+# Copiar senha para copia
+$copiar = Read-Host "Deseja copiar a senha para a área de transferência? (s/n)"
+# ToLower - garante que tanto s ou S funcionem
+# Value - indica o que será passado para a área de transferência
+if ($copiar.ToLower() -eq 's') {
+    Set-Clipboard -Value $senha
+    Write-Host "Senha copiada para a área de transferência!" -ForegroundColor Green
+}
