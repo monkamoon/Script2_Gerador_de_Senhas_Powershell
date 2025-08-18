@@ -2,7 +2,7 @@
 
 ###
 
-<p align="left">2° Script para treino de shell coding<br>12.08 - Adicionado opção para escolher tamanho de senha<br>14.08 - Adicionado opções para retirar símbolos e caracteres parecidos (como O/0)</p>
+<p align="left">2° Script para treino de shell coding<br>12.08 - Adicionado opção para escolher tamanho de senha<br>14.08 - Adicionado opções para retirar símbolos e caracteres parecidos (como O/0) <br>18.08 - Adicionado opção de cópia da senha para a área de transferência</p>
 
 ###
 
@@ -10,6 +10,6 @@
 
 ###
 
-<p align="left">⚪ Get-Random<br>⚪ For & lt<br>⚪ Uso de conversor para [int]<br>⚪ Uso de Where-Object & Pipeline [new] <br>⚪ Função if, eq & notin [new]</p>
+<p align="left">⚪ Get-Random<br>⚪ For & lt<br>⚪ Uso de conversor para [int]<br>⚪ Uso de Where-Object & Pipeline [new] <br>⚪ Função if, eq & notin [new] <br>⚪ Função Set-Clipboard -value<br>⚪ ToLower</p>
 
 ###
