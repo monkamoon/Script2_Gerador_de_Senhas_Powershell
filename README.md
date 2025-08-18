@@ -2,7 +2,7 @@
 
 ###
 
-<p align="left">2° Script para treino de shell coding<br>12.08 - Adicionado opção para escolher tamanho de senha<br>14.08 - Adicionado opções para retirar símbolos e caracteres parecidos (como O/0) <br>18.08 - Adicionado opção de cópia da senha para a área de transferência</p>
+<p align="left">2° Script para treino de shell coding<br>12.08 - Adicionado opção para escolher tamanho de senha<br>14.08 - Adicionado opções para retirar símbolos e caracteres parecidos (como O/0) <br>18.08 - Adicionado opção de cópia da senha para a área de transferência com função Set-Clipboard</p>
 
 ###
 
