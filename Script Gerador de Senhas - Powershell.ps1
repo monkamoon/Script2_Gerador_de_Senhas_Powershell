@@ -66,6 +66,7 @@ if ($copiar.ToLower() -eq 's') {
 # SALVANDO SENHA EM UM ARQUIVO
 # Caminho do arquivo
 # [Environment]::GetFolderPath("Desktop") - Caminho do Desktop do usuário atual
+# :: - chamar algo de tal classe
 $desktop = [Environment]::GetFolderPath("Desktop")
 $caminhoArquivo = Join-Path $desktop "senhas_geradas.txt"
 
