@@ -62,3 +62,20 @@ if ($copiar.ToLower() -eq 's') {
     Set-Clipboard -Value $senha
     Write-Host "Senha copiada para a área de transferência!" -ForegroundColor Green
 }
+
+# SALVANDO SENHA EM UM ARQUIVO
+# Caminho do arquivo
+# [Environment]::GetFolderPath("Desktop") - Caminho do Desktop do usuário atual
+$desktop = [Environment]::GetFolderPath("Desktop")
+$caminhoArquivo = Join-Path $desktop "senhas_geradas.txt"
+
+# Linha a ser salva no arquivo 
+# Get-Date - mostrar data e hora | -format = formato 
+$senhaguardada = "$(Get-Date -Format 'dd-MM-yyyy HH:mm') - $senha"
+
+# Salva no final do arquivo
+# Add-Content, adiciona conteúdo sem apagar
+Add-Content -Path $caminhoArquivo -Value $senhaguardada
+
+# Mensagem de confirmação
+Write-Host "Senha salva em: $caminhoArquivo" -ForegroundColor Yellow
