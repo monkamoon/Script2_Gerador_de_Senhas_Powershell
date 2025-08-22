@@ -11,5 +11,3 @@
 ###
 
 <p align="left">⚪ Get-Random<br>⚪ For & lt<br>⚪ Uso de conversor para [int]<br>⚪ Uso de Where-Object & Pipeline [new] <br>⚪ Função if, else, elseif | eq, lt, ge, le & notin [new] <br>⚪ Função Set-Clipboard -value<br>⚪ ToLower<br>⚪ Join-Path &  GetFolderPath<br>⚪ Get-Date<br>⚪ Add-Content<br>⚪ Length</p>
-
-###
