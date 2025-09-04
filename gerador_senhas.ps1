@@ -96,3 +96,5 @@ Add-Content -Path $caminhoArquivo -Value $senhaguardada
 # Mensagem de confirmação
 Write-Host "Sua senha foi salva automaticamente em: $caminhoArquivo!" -ForegroundColor Green
 
+# Passphrase com base em palavras .txt
+$palavras = Get-Content "C:\Users\Melissa\Downloads"
